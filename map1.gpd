@@ -1,0 +1,17 @@
+a,0,1,0;
+b,1,2,0;
+c,1,0,0;
+d,2,2,0;
+e,2,0,0;
+z,3,1,0;
+
+a,b,4,HIGHWAY,F;
+b,a,20,HIGHWAY,F;
+a,c,2,NORMAL,T;
+c,b,1,NORMAL,T;
+c,d,8,NORMAL,T;
+c,e,10,NORMAL,T;
+b,d,5,HIGHWAY,T;
+d,e,2,NORMAL,T;
+d,z,6,HIGHWAY,T;
+e,z,5,NORMAL,T;
